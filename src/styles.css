@@ -1,1 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Manjari&family=Train+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
+
+
+body {
+    margin:0;
+    padding: 0;
+    background-color:  #fef7e7;
+}
+
+.frame {
+    min-height: 100vh;
+}
+
+.font-LuckiestGuy {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.font-TrainOne {
+    font-family: 'Train One', Helvetica
+}
+
+.font-WendyOne  {
+    font-family: 'Wendy One', Helvetica;
+}
+
+.font-Lato {
+    font-family: 'Lato', Helvetica;
+}
+
+.font-Manjari {
+    font-family: 'Manjari', Helvetica;
+}
