@@ -26,9 +26,9 @@ export default function CoreApp() {
                     </div>
 
                     <div className="links font-LuckiestGuy flex items-center gap-[3rem] top-[-0.5rem] relative left-[-8rem] font-normal text-black text-[22px]">
-                        <a href="#home" className="">Home</a>
-                        <a href="#app" className="">App</a>
-                        <a href="#share" className="">Share</a>
+                        <a href="RestaurantRanker/#home" className="">Home</a>
+                        <a href="RestaurantRanker/#app" className="">App</a>
+                        <a href="#" className="">Share</a>
                     </div>
 
                 </nav>
@@ -47,7 +47,7 @@ export default function CoreApp() {
                                 </p>
                             </div>
                             <div className="discover w-[177px] h-[52px]">
-                                <a href="#app" className="block relative w-[175px] h-[52px] bg-[#7f5c48] rounded-[31px] border border-solid border-[#00000061]">
+                                <a href="RestaurantRanker/#app" className="block relative w-[175px] h-[52px] bg-[#7f5c48] rounded-[31px] border border-solid border-[#00000061]">
                                     <div className="absolute w-[112px] top-[10px] left-[31px] font-LuckiestGuy font-normal text-[#fef7e7] text-[24px] tracking-[0.24px] leading-[normal] whitespace-nowrap">
                                         Discover
                                     </div>
