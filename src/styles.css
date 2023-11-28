@@ -38,3 +38,7 @@ body {
 .font-Manjari {
     font-family: 'Manjari', Helvetica;
 }
+
+.marker {
+    scale: 0.8;
+}
