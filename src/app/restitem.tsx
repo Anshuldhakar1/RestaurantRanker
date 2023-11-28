@@ -19,7 +19,9 @@ export const RestItem = (props: RestItemProps) => {
         return arr[Math.floor(Math.random() * arr.length)];
     }
 
-    const isOpen: string[] = ["Yes","no","no","no","Yes","Yes"];
+    const isOpen: string[] = ["Yes", "no", "no", "no", "Yes", "Yes"];
+    
+    const isOpenClass = getRandomItem(isOpen) === "Yes" ? appModuleStyles.isOpenYes : appModuleStyles.isOpenNo;
 
     return (
         <div id={props.name}
@@ -43,10 +45,7 @@ export const RestItem = (props: RestItemProps) => {
                     
 
                     <label htmlFor={props.name}
-                        style={
-                            { "--isOpen": getRandomItem(isOpen) === "Yes" ? "#05AC54" : "#CC2D23" }
-                        }
-                        className={` ${appModuleStyles.opens} 
+                        className={` ${appModuleStyles.opens} ${isOpenClass}
                     font-bold text-[#878787] text-[15px]`}
                     >Opens {props.opens}</label>
                 </div>

@@ -48,3 +48,11 @@
     left: -12px;
     border-radius: 50%;
 }
+
+.isOpenNo {
+    --isOpen: #CC2D23;
+}
+
+.isOpenYes {
+    --isOpen: #05AC54;
+}
